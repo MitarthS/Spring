@@ -1,0 +1,25 @@
+AOP With Spring Framework
+Assignment-1:-
+o Create a Spring application that maintains a list of 100 student objects with details like studentId, studentName, studentAddress in a collection (array, list, map etc.,)
+o It also has methods as below:
+ getAllDetails()  That displays all the details of all 100 students.
+ getDetails(studentId) -> That displays the details of a particular student by taking studentId as an input
+I would want to log a message in the format ‘<MethodName> invoked at <date-time>’ in the console whenever the method successfully completes and would also want to display the total time taken by each of these methods for their execution.
+
+
+Spring JDBC Framework
+Assignment-1:-
+Re-write the solution of ‘Assignment 1’ of the topic ‘Aspect Oriented Programming’ above but instead of storing the student details in a collection maintain the student details in a table in a database and access it whenever required.
+Use ‘JDBCTemplate’ for this solution.
+
+Assignment-2:-
+Re-write the previous assignment solution but this time use Hibernate as your ORM layer and accordingly use the ‘HibernateTemplate’ for this solution
+
+Spring Web MVC Framework
+Assignment-1:-
+Create a form which takes three inputs from the User -> Science marks , Maths marks and English marks
+After entering the data, when the user clicks on the submit button, it has to calculate the sum of these numbers and show the total marks back to the user.
+Use Spring MVC for this solution and use XML configuration
+
+Assignment-2:-
+Rewrite the above solution use Spring Annotations
