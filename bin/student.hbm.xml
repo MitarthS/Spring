@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>  
+<class name="SpringJDBC.HiberDAO" table="student">  
+          <id name="sid">  
+          <generator class="assigned"></generator>  
+          </id>  
+            
+          <property name="sname"></property>  
+          <property name="sadd"></property>  
+</class>  
+            
+</hibernate-mapping>  
